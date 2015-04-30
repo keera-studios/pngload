@@ -18,3 +18,16 @@ Source for the test is in Test.hs.
 
 Note that the library has not been tested with every possible kind of
 PNG images, so use at your own risk.
+
+=====================================================================
+
+NOTE by Ivan Perez (Keera Studios):
+
+We are not the authors of this library (see pngload.cabal for details).
+
+This library has been made available only because the one in hackage does not
+compile anymore. The publication should not be taken as a sign that this will
+be maintained. This library was used by our Game IDE, Gale; over the years,
+using it gave us a fair amount of headaches (due to not being able to load all
+the kinds of PNGs we needed). That being said, if you would like to fix it and
+take over or send a pull request, feel free.

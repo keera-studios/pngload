@@ -16,6 +16,8 @@ extra-source-files: Test.hs
 data-files:     LICENSE, README, test_images/mustang.png
 
 library
+  default-language: Haskell2010
+
   exposed-modules:	Codec.Image.PNG, Codec.Image.PNG.Internal.CRC,
                         Codec.Image.PNG.Internal.Filters,
                         Codec.Image.PNG.Internal.Parser
